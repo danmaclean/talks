@@ -1,0 +1,15 @@
+# Links for this talk
+
+* [ashtag.org](http://ashtag.org)
+* [OpenAshDieBack](http://oadb.tsl.ac.uk)
+* [ash-dieback GitHub Repo](https://github.com/ash-dieback-crowdsource/data)
+* [Circos genome figure](http://dx.doi.org/10.6084/m9.figshare.791640)
+* [GC in features](http://dx.doi.org/10.6084/m9.figshare.706771)
+* [Effector genes in tribes](http://dx.doi.org/10.6084/m9.figshare.1005005)
+* [Heatmap of gene flanking region length frequency](http://dx.doi.org/10.6084/m9.figshare.1005006)
+* [Metagenomic analysis of pathogen strains](http://dx.doi.org/10.6084/m9.figshare.807684)
+* [Trees of diversity in UK population](http://dx.doi.org/10.6084/m9.figshare.1005007)
+* [Mating Type Assays](http://dx.doi.org/10.6084/m9.figshare.1005008)
+* [Lignin Degradation Genes Heatmap](http://dx.doi.org/10.6084/m9.figshare.791635)
+* [Toxin like Proteins](http://dx.doi.org/10.6084/m9.figshare.1005010)
+* 
