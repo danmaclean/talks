@@ -12,4 +12,4 @@
 * [Mating Type Assays](http://dx.doi.org/10.6084/m9.figshare.1005008)
 * [Lignin Degradation Genes Heatmap](http://dx.doi.org/10.6084/m9.figshare.791635)
 * [Toxin like Proteins](http://dx.doi.org/10.6084/m9.figshare.1005010)
-* 
+* [Pre-Print on Year 1 progress](http://biorxiv.org/content/early/2014/04/25/004564)
