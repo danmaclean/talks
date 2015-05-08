@@ -1,0 +1,98 @@
+#titles
+{
+	position: absolute;
+	width: 110%;
+	/** these two define the entry and exit point of the scrolling text */
+	height: 3000%;
+	bottom: -1500%;
+	
+	left: 0%;
+	margin-left: 0em;
+	font-size: 110%; /* this changes, err, font size  */
+	text-align: justify;
+	overflow: hidden;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	
+	/** change this to set the angle of the scroll text **/
+	-webkit-transform: perspective(100px) rotateX(5deg);
+	-moz-transform: perspective(100px) rotateX(5deg);
+	-ms-transform: perspective(100px) rotateX(5deg);
+	-o-transform: perspective(100px) rotateX(5deg);
+	transform: perspective(100px) rotateX(5deg);
+}
+
+#titles:after
+{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	/** change these colours to the background for the fade effect **/
+	background-image: -webkit-linear-gradient(top, rgba(221,237,242,1) 0%, transparent 100%);
+	background-image: -moz-linear-gradient(top, rgba(221,237,242,1) 0%, transparent 100%);
+	background-image: -ms-linear-gradient(top, rgba(221,237,242,1) 0%, transparent 100%);
+	background-image: -o-linear-gradient(top, rgba(221,237,242,1) 0%, transparent 100%);
+	background-image: linear-gradient(top, rgba(221,237,242,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+
+#titles p
+{
+	text-align: justify;
+	margin: 0.8em 0;
+}
+
+#titles p.center
+{
+	text-align: center;
+}
+
+#titles a
+{
+	color: #ff6;
+	text-decoration: underline;
+}
+
+#titlecontent
+{
+	position: absolute;
+	top: 100%;
+	/* these control the speed of the scroll */
+	-webkit-animation: scroll 40s linear 4s infinite;
+	-moz-animation: scroll 0s linear 4s infinite;
+	-ms-animation: scroll 10s linear 4s infinite;
+	-o-animation: scroll 10s linear 4s infinite;
+	animation: scroll 40s linear 4s infinite;
+}
+
+/* animation */
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
