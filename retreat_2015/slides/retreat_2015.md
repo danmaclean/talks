@@ -249,17 +249,9 @@ If we take C to 0.3 though, the picture looks much more like it does at 0.1, so 
 
 
 \sub_slide
-#### A simple mechanistic model explains effector gene size
-<video controls width="600" data-src='slides/img/pdfa.webm'></video>
-
-Note: A further result from the model is that it can explain the distribution of effector size in genomes. The video here shows the evolution of effector size from the initial population and it re-builds the shape of the distribution that we see in P.infestans. This indicates that only a few mechanical rules are needed to reproduce the observed structure of the Effectors in the P.infestans genome. This really hints at a strong role for the extra complexity arising from just a few principles. 
-
-
-\sub_slide
 * Genome length increases under straightforward mechanical processes
 * Frequency and distance of jump interact to affect the rate of expansion
 * Extreme expansion may occur at a sweet spot
-* Effector size distributions are 'rebuilt' correctly
 
 Note: So here's what we're learning...		
 
@@ -368,6 +360,7 @@ And soon CandiSNP will be an end to end tool. We've developed the interface so t
 
 \sub_slide
 #### SugarNet - A tool for inspecting co-regulatory networks
+###### I know the name sucks ... any suggestions?
 <video controls width="750" data-src='slides/img/sugarnet.mov' autoplay="true" loop="true"></video>
 
 Note: Another tool we've created, also with the Zipfel group is SugarNet, which allows you to upload time-course expression data and runs methods that predict transcriptional regulatory interactions. From this it builds a transcriptional regulatory network.
@@ -384,10 +377,62 @@ Note: And something we've been working on recently is porting the powerful Krake
 Kraken can quickly and accurately workout the taxonomic level that an individual sequence read came from, we have optimised this for use on phyopathogenic organisms on a plant background and built tools that can extract all sequences quickly from a given taxonomic level for easy and more complete downstream assembly. Soon we will have implented an interactive visualisation like this krona plot which will allow exploration of the taxa represented in the phytopathogen interaction metagenome or transcriptome.
 
 \sub_slide
+#### Quantification of disease in low quality images
+![](slides/img/ir_image8.jpg)
+
+Note: We've also been working on new technologies for in lab and in field disease identification and quantification. Our starting point has been very low quality infrared images like this one. USing IR gives us much more information about the physiological state of plant tissue than standard RGB images.
+
+\sub_slide
+#### Quantification of disease in low quality images
+![](slides/img/segmented.png)
+
+Note: We convert the signal to a measure of IR enrichment and ditch colour information, which reduces the problem to a single data dimension that we can put through a simple peak finding analysis to find the regions of the leaf that correspond to different physiological states. So the red areas are the photosyntetically active tissues, the yellow are the infected and the light blue are necrotic. So we have a fast effective pipeline for analysing and quantifying diseased plant images.
+ 
+\sub_slide
+#### Cheap hardware
+
+![](slides/img/raspberrypi.jpg)
+
+&#163; 35 
+
+Note:  This doesn't require intense computation or specialised software so you can take advantage of hardware like the Raspberry Pi, which is a tiny little computer which costs peanuts and has a user-programmable set of metal pins sticking out if that a user can control by simple Python software running on the Pi.
+
+\sub_slide
+#### Home-made robots
+<img src="slides/img/robot.jpg" height=350>
+
+Note: With those pins you can connect up to any electrical device like stepper motors or camers and use those to build various things like camera driving robots for use in the lab for time lapsing, for things like specialised phenotyping machines or even for automating your genetic screens. So this is a little raspberry pi driven cam-robot. The pi is hidden here at the front and its running a little motor along this track made by two shower curtain rails a and a timing belt out of a washing machine. Total cost without camera is about 50 pounds. 
+
+\sub_slide
+#### The future is flying robots
+
+<img src="slides/img/qcopter.png" height=400>
+
+Note: And one plan we have for the near future is to mount this computational image software onto quadcopters running GPS autopilot and fly them over fields to examine disease progress and facilitate a sort of flying digital immune system.
+
+\sub_slide
+
+###### The big event this summer
+#### Galaxy Community Conference - gcc2015.tsl.ac.uk
+<img src="slides/img/gcc.png" height=350>
+
+
+Note: And finally, a shameless plug for the biggest event happening at TSL this summer, the 250 attendee strong Galaxy Community Conference which brings together bench and computational scientists who use and build the Galaxy Tool that forms a large part of our bioinformatics support provision. The conference will have a very large training stream with two full days on a wide range of biologist-centric topics and some excellent speakers from the computational and biology sides including the keynote...
+
+\sub_slide
+###### GCC 2015 Keynote
+#### Oliver Stegle - EBI
+<img src="slides/img/stegle.png" style="border:none;border-radius:50%;background-color:white;padding:10px;height:150px;" >
+###### 'Modeling molecular heterogeneity between individuals and single cells'
+
+Note: which will be given by Oliver Stegle who will talk about his work on determining population structure in genetic association studies in individuals and single cells.
+
+\sub_slide
 #### Bioinformatics is awesome
 ![](slides/img/unicorn.jpg)
 
-Note: So I hope I've convinced you we have an awesome bioinformatics team. In their own words, more awesome than a cat with a golden gun riding a fire breathing unicorn.
+Note: So I hope I've convinced you we have an awesome bioinformatics team with awesome stuff going on. In the teams own words, more awesome than a cat with a golden gun riding a fire breathing unicorn.
+
 
 \new_slide
 
@@ -415,7 +460,7 @@ Note: So I hope I've convinced you we have an awesome bioinformatics team. In th
 <p class="center">Christian Schudoma (not actually a pirate)</p>
 <p class="center">The Late Graham Etherington</p>
 <h3 style="text-align:center;">Consulting bench-bound scientists</h3>
-<p class="center">CandiSNP - Jacqui Monaghan</p>
+<p class="center">CandiSNP - Jacqui &#x1f4a9; Monaghan</p>
 <p class="center">SugarNet - Rosa Lozano Duran</p>
 <p class="center">Kraken - Yogesh Gupta</p>
 
